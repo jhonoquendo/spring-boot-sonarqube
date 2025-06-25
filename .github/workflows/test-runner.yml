@@ -1,0 +1,11 @@
+name: Test Runner on Kubernetes
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: [self-hosted]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Echo desde el pod
+        run: echo "¡Hola desde Kubernetes, Jhon!"
