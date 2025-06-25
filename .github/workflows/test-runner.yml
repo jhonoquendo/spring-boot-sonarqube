@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Echo desde el pod
-        run: echo "¡Hola desde Kubernetes, Jhon!"
+        run: echo "¡Hola desde Kubernetes, Jhon! jeje"
